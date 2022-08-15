@@ -3,8 +3,8 @@ object splash: Tsplash
   Top = 0
   BorderStyle = bsNone
   Caption = 'Aguarde...'
-  ClientHeight = 240
-  ClientWidth = 463
+  ClientHeight = 180
+  ClientWidth = 480
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -18,8 +18,8 @@ object splash: Tsplash
   object Label1: TLabel
     Left = 0
     Top = 0
-    Width = 463
-    Height = 192
+    Width = 480
+    Height = 132
     Align = alClient
     Alignment = taCenter
     Caption = 'Inicializando o Sistema'
@@ -29,17 +29,17 @@ object splash: Tsplash
     Font.Name = 'Tahoma'
     Font.Style = []
     ParentFont = False
-    ExplicitTop = 8
-    ExplicitWidth = 361
-    ExplicitHeight = 129
+    ExplicitHeight = 192
   end
   object ProgressBar1: TProgressBar
     Left = 0
-    Top = 192
-    Width = 463
+    Top = 132
+    Width = 480
     Height = 48
     Align = alBottom
     TabOrder = 0
+    ExplicitTop = 192
+    ExplicitWidth = 463
   end
   object Timer1: TTimer
     Interval = 50

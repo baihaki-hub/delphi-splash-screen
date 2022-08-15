@@ -32,7 +32,7 @@ uses uMain;
 procedure Tsplash.Timer1Timer(Sender: TObject);
 begin
 
-  ProgressBar1.Position := ProgressBar1.Position + 2;
+  ProgressBar1.Position := ProgressBar1.Position + 1;
   if (ProgressBar1.Position = 100) then
   begin
     Timer1.Enabled := false;
